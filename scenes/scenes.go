@@ -21,7 +21,7 @@ var (
 func load() {
 	ScreenWidth	= int32(rl.GetScreenWidth())
 	ScreenHeight = int32(rl.GetScreenHeight())
-	Pimg = rl.LoadTexture("assets/bird.png")
+	Pimg = rl.LoadTexture("assets/images/bird.png")
 }
 
 func unload() {
